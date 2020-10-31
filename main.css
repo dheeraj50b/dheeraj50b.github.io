@@ -1,0 +1,306 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.head
+{
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    color: whitesmoke;
+    text-align: center;
+    
+    
+    
+}
+.nav
+{
+    width: 100%;
+    height: 40px;
+    background-color: coral;
+    line-height: 30px;
+    
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+    padding-left: 10px;
+    margin-left: 30px;
+    display: block;
+    align-items: center;
+}
+
+.nav ul li:hover .drawer
+{
+    display: block;
+}
+.drawer ul
+{   
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 16px;
+    margin-top: 5px;
+    
+    box-sizing: border-box;
+    
+}
+.drawer ul li{
+    background-color: coral;
+    border: 1px solid darkkhaki;
+    list-style: square;
+    
+}
+.nav ul li a:hover
+{
+    color: lawngreen;
+    transform: scale(2);
+}
+.drawer
+{
+    display: none;
+}
+.nav i
+{
+    margin-right: 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    transition: 0.5%;
+}
+
+.social
+{
+    margin: 10px;
+}
+.social ul{
+    list-style: none;
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    display: flex;
+    
+}
+.social ul li
+{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 8px;
+    background-color: honeydew;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 2px 0px grey;
+    margin-top: 300px;
+    
+
+}
+.social ul li .fa
+{
+    position: relative;
+    left: 22px;
+    top: 18px;
+    transition: .5%;
+    color: black;
+}
+.social ul li .fa:hover
+{
+   transform: scale(1.5);
+   color: white;
+}
+.social ul li:nth-child(1):hover
+{
+    transform: translate(0,-10px);
+    background-color: blue;
+}
+
+.social ul li:nth-child(2):hover
+{
+    transform: translate(0,-10px);
+    background-color: rgb(174 72 89 / 92%);
+}
+.social ul li:nth-child(3):hover
+{
+    transform: translate(0,-10px);
+    background-color: #4d4d9a;
+    
+}
+.social ul li:nth-child(4):hover
+{
+    transform: translate(0,-10px);
+    background-color: #22227d;
+    
+}
+#img2
+{
+    position: relative;
+    left: 30px;
+    border-radius: 50%;
+    border: 1px solid orange;
+    margin: 10px;
+}
+#img2:hover
+{
+    filter: grayscale();
+
+}
+.about
+{   width:"60%";
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+    line-height: 30px;
+    padding: 5px;
+      
+}
+.about h2
+{
+    
+
+    padding: 15px;
+}
+.about p
+{
+    padding: 0x;
+    
+}
+.forum
+{
+    
+    text-align: center;
+    background: transparent;
+    box-shadow: 3px 4px 4px 4px grey;
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 70%;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 450px;
+    padding: 5px;
+    border-radius: 20%;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+.forum:hover{
+    
+    border: 5px solid blue;
+    
+}
+.form{
+    padding: 10px;
+}
+input[type="submit"]
+{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2 linear;
+}
+input[type="submit"]:hover
+{
+    background-color: greenyellow;
+    transform: scale(1.2);
+}
+input[type="check box"]
+{
+    width: 10px;
+}
+input[type="text"]:hover
+{
+    transform: scale(1.2);
+}
+body{
+    background-color: palegreen;
+}
+.total
+{
+    height: 100%;
+}
+.footer
+{
+    margin-top: 500px;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+input[type="text"]
+{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    
+}
+input[type="email"]
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.form h2{
+    padding: 5px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.form h2:hover
+{
+    transform: scale(1.2);
+}
+.side-bar
+{
+    
+    background-color: mediumslateblue;
+    color: white;
+    width: 15%;
+    height: 60%;
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+    padding: 5px;
+    text-align: center;
+    display: non;
+}
+.side-bar ul li
+{
+    list-style: none;
+    line-height: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+}
+.side-bar ul li:hover{
+    color: navajowhite;
+    transform: scale(1.2);
+}
+.side-bar ul li a:hover{
+    color: navajowhite;
+}
+#but li a{
+    text-decoration: none;
+
+}
+
+
+
+
+.button ul li:hover .side-bar
+{
+    display: block;
+}

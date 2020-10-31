@@ -1,0 +1,139 @@
+
+<html>
+    <head>   
+        <link rel="stylesheet" type="text/css" href="main.css">   
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+        <script>
+            function patd()
+            {
+                var mark= document.getElementById(ftname)
+                if(mark.value.trim()="")
+                {
+                    alert("invalid")
+                }
+            }
+        </script>
+    </head>
+    
+    <body>
+    <div class="total">
+        <div class="head">   
+            <h1>MY PORTFOLIO</h1>
+    
+            </div>
+        <div class="nav" >
+            
+                <ul>
+                    <li><a href="#"> <i class="fa fa-home"></i>HOME</a>
+                    <div class="drawer">
+                        <ul>
+                            <li><a href="#">NAME</a></li>
+                            <li><a href="#">DATE</a></li>
+                            <li><a href="#">COLLEGE</a></li>
+                        </ul>
+                    </div>
+                </li>
+                    <li><a href="#"> <i class="fa fa-clone"></i>SERVICES</a></li>
+                    <li><a href="#"><i class="fa fa-users"></i>ABOUT ME</a></li>
+                    <li><a href="#"><i class="fa fa-edit"></i>PROJECTS</a></li>
+                    <li><a href="#">SKILLS</a></li>
+                    <li><a href="#"> <i class="fa fa-phone"></i>CONTACT</a></li>
+                </ul>
+            
+        </div>
+        
+        <div class="button">
+            <ul id="but">
+                <li><a href="#">button</a>
+                    <div class="side-bar">
+                        <h2>PROJECTS</h2>
+                        <ul>
+            
+                            <li><a href="#">Project 1</a></li>
+                            <li><a href="#">Project 2</a></li>
+                            <li><a href="#">Project 3</a></li>
+                            <li><a href="#">Project 4</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            
+        </div>
+            
+        
+    
+        <div class="social">
+            <ul>
+                <li><a href="www.google.com"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        
+        <div class="body">
+            <div class="about">
+                <h2>ABOUT ME</h2>
+                <p>DHDVJKHVK    hlfhhvljdf;jkflfjkjfnnkcbmnvkdffkfkdfgkjvbmvblfngkhfljv,mlffhkjgnmljgigj/bv</p>
+                <p>fguihlgjugpjf.ff fpi9rtiptjiiiiiiiiiiiiii iiiihhhhhhhhhhhhhhhrrrrrrrr </p>
+            </div>
+        </div>
+        <form>
+            <div class="forum">
+                <div class="form">
+                    <h2>Details</h2>
+                </div>
+            
+            <div class="form">
+                <input id="ftname"type="text"size="50px"placeholder="First Name"autofocus required>
+            </div>
+            <div class="form">
+                <input type="text"id="sdname"size="50px"placeholder="Second Name"pattern=>
+            </div>
+            <div class="form">
+                Gender:
+                <input name="M"type="radio" name="M"value="ma">Male;
+                <input name="M"type="radio"name="F"value="fe">Female;
+            </div>
+            <div class="form">
+                Skills:
+                <input type="checkbox">C
+                <input type="checkbox">C++
+                <input type="checkbox">Java
+                <input type="checkbox">Html
+
+            </div>
+            <div class="form">
+                <input list="data"size="50px"placeholder="Cities">
+                <datalist id="data">
+                    <option>Hyderabad</option>
+                    <option>Arunachal Pradesh</option>
+                    <option>Telangana</option>
+                    <option>Delhi</option>
+                    <option>Banglore</option>
+                </datalist>
+            </div>
+            <div class="form">
+                <input type="text"size="50px"size="50px"pattern="[0-9]{10}"placeholder="Phone Number"required>
+            </div>
+            <div class="form">
+                <input type="email"size="50px"placeholder="Email-ID"required>
+            </div>
+            <div class="form">
+                <input type="submit"onclick="patd()">
+            </div>
+            <div class="form">
+                <input type="reset">
+            </div>
+        </div>
+        </form>
+    </div>
+    <div class="footer">
+        <h5>copyrights @2020</h5>
+    </div>
+    </body>
+
+
+    </html>
