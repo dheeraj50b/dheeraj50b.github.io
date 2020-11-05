@@ -271,11 +271,11 @@ input[type="email"]
     width: 15%;
     height: 60%;
     position: absolute;
-    left: 0px;
+    left: 31px;
     bottom: 40px;
     padding: 5px;
     text-align: center;
-    display: non;
+    
 }
 .side-bar ul li
 {
@@ -292,15 +292,16 @@ input[type="email"]
 .side-bar ul li a:hover{
     color: navajowhite;
 }
-#but li a{
-    text-decoration: none;
 
-}
-
-
-
-
-.button ul li:hover .side-bar
+input[type="button"]
 {
-    display: block;
+    outline-style: none;
+margin: 50px;
+width: 150px;
+height: 50px;
+background-color: antiquewhite;
+color: black;
+font-weight: bolder;
+border: 1px solid white;
+border-radius: 12px;
 }

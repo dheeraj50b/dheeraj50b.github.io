@@ -4,15 +4,17 @@
         <link rel="stylesheet" type="text/css" href="main.css">   
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+        <script src="jquery-3.5.1.js" type="text/javascript"></script>
         <script>
-            function patd()
-            {
-                var mark= document.getElementById(ftname)
-                if(mark.value.trim()="")
-                {
-                    alert("invalid")
-                }
-            }
+            $(document).ready(function(){
+                $("#clk").click(function(){
+
+                    $("#side").toggle();
+                });
+               
+            
+
+            });
         </script>
     </head>
     
@@ -44,9 +46,9 @@
         </div>
         
         <div class="button">
-            <ul id="but">
-                <li><a href="#">button</a>
-                    <div class="side-bar">
+            
+                <input type="button" value="My Projects" id="clk">
+                    <div class="side-bar" id="side">
                         <h2>PROJECTS</h2>
                         <ul>
             
@@ -56,8 +58,8 @@
                             <li><a href="#">Project 4</a></li>
                         </ul>
                     </div>
-                </li>
-            </ul>
+                
+            
 
             
         </div>
