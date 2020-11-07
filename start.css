@@ -1,0 +1,53 @@
+.intro
+{   
+    color: blue;
+    text-align: center;
+    margin-top: 12%;
+    display: flex;
+    word-break:normal ;
+    margin-left: 440px;
+    position: relative;
+    background: transparent;
+}
+h1
+{
+    background: transparent;
+    
+}
+.link
+{
+    text-decoration: none;
+    position: absolute;
+    left: 45%;
+    color: rgb(22, 15, 13);
+    cursor: pointer;
+    
+}
+h2
+{
+    position: absolute;
+    left: 45%;
+    top: 5%;
+    
+}
+input[type="submit"]
+{
+    left: 45%;
+
+}
+img
+{
+    position: absolute;
+    top: 300px;
+}
+.body
+{
+    width: 100%;
+    overflow: hidden;
+}
+.banner
+
+{
+    bac
+    
+}
