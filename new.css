@@ -1,5 +1,38 @@
 *
 {
+    
+}
+.top
+{
+    background-color: rgb(241, 170, 182);
+    height: 400px;
+    width: 100%;
+    border-top-left-radius:25px ;
+    border-top-right-radius:25px;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px;
+    
+}
+.middle
+{
+    border-top:5px solid rgba(192, 192, 192, 0.945);
+    background-color: silver;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px;
+    height: 500px;
+    width: 100%
+}
+.waves
+{
+   position: absolute;
+   top: 333px;
+   width: 98.7%;
+   
+   margin-right: 30px;
+   
+}
+*
+{
     padding: 0px;
     margin: 0px;
     
@@ -11,8 +44,7 @@
     text-decoration: underline;
     padding: 7px;
     letter-spacing: 1ex;
-    color: white;
-    
+    color: red;
     width: 100%;
     overflow: hidden;
 }
@@ -21,11 +53,19 @@
     list-style: none;
     margin-left: 25px;
     padding: 8px;
-   
 }
-
+.nav ul li:nth-child(1)
+{
+    margin-left: 240px;
+    
+}
+.nav ul li:nth-child(1) a:hover
+{
+    color: crimson;
+}
 .nav ul{
-    display: flex;  
+    display: flex;
+
 }
 .fa
 {
@@ -34,32 +74,25 @@
 #header
 {
 width: 100%;
-
+position: fixe;
 overflow: hidden;
-}
-.nav ul li:nth-child(1)
-{
-    margin-left: 260px;
-    
 }
 .nav ul li a
 {
     text-decoration: none;
-    color: aqua;
-    
+    color: white;
+    font-weight: bold;
+
 }
 .nav ul li a:hover
 {
-    color: crimson;
+    color: springgreen;
 }
 
 .introduction
 {   
-    height: 500px;
-    background-color:black;
-    margin-left: 30px;
-    margin-right: 30px;
-    border-radius: 20px;
+    height: 340px;
+    background-color:rgb(248, 225, 148);
 }
 .img1
 {
@@ -82,152 +115,116 @@ overflow: hidden;
     letter-spacing: 5px;
     width: fit-content;
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 40px;
     background: linear-gradient(to right,rgb(241, 15, 15),rgb(116, 3, 59),rgb(35, 35, 211),rgb(25, 166, 201),rgb(12, 201, 53),rgb(161, 201, 17),rgb(201, 70, 10),rgb(194, 35, 8));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 
 }
-.intro h2
-{
-    color: white;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 25px;
-}
 .intro p{
-    margin-left: 350px;
+    margin-left: 40px;
     margin-top: 10px;
     font-size: 17px;
-    letter-spacing: 1px;
     color: white;
 }
+
+
+
 
 .me
 {
-    width: 60%;
+    height: 300px;
+    padding: 10px;
     float: right;
-    padding: 10px;
-}
-.me h2
-{
-    padding: 10px;
-    position: relative;
-    left: 200px;
-    width: fit-content;
+    width: 600px;
+    margin-right: 90px;
 }
 .me p
 {
-    
     position: relative;
-    
-    left: px;
-    top: 20px;
-    line-height: 30px;
-    font-size: 17px;
-}
-.projects
-{
-    position: absolute;
-    text-align: center;
-    top: 800px;
-    left: 500px;
+    top: 80px;
+    line-height: 40px;
+    font-size: 19px;
     
 }
-.experience
+.me h2
 {
-    position: absolute;
     text-align: center;
-    top: 1100px;
-    left: 490px;
-    width: fit-content;
+    position: relative;
+    top: 50px;
+    color: darkmagenta;
+    font-size: 30px;
+}
+.me a
+{
+    text-decoration: none;
+    color: rgb(238, 36, 36);
+}
+.mine
+{
+    border: 1px solid black;
+    height: 340px;
+    border-top: 5px solid silver;
+    background-color: white;
 }
 .box
 {
-    background-color: honeydew;
-    height: 900px;
-    margin-left: 30px;
-    margin-right: 30px;
-    border-radius: 5px;
-    padding: 20px;
+    display: flex;
+    height: 320px;
+    justify-content: space-between;
+}
+.box div
+{
+    
+    width: 40%;
+    padding: 8px;
+    text-align: center;
+}
+.projects
+{
+    margin-left: 44px;
+    background-color: violet;
+}
+.experience
+{
+    margin-right: 44px;
+    background-color: turquoise;
 }
 
-.social ul
+.projects ul li
 {
-    display: flex;   
-    position: absolute;
-    left: 160px;
-    top: 1px;
+    list-style: none;
+    padding: 10px;
+    transition: 10ms ;
+    
 }
-.social ul li a
+.projects ul
+{
+    display: none;
+}
+.projects ul li:hover
+{
+    transform: scale(1.2);
+}
+.projects ul li a
 {
     text-decoration: none;
-    font-size: 20px;
-    padding: 7px;
+    font-size: 25px;
+    color: rgb(70, 10, 126);
+    font-weight: bolder;
+    
+}
+.projects ul li a:hover
+{
+    color: rgb(4, 107, 18);
+    
+}
+.projects ul
+{
 
-}
-
-.social ul li:nth-child(1)
-{
-    background-color: rgba(0, 0, 255, 0.658);
-}
-
-.social ul li:nth-child(2)
-{
-    background-color: rgb(250, 65, 96);
-}
-.social ul li:nth-child(3)
-{
-    background-color: rgb(81, 81, 241);
-}
-.social ul li:nth-child(5)
-{
-    background-color: rgba(103, 103, 209, 0.952);
-}
-.social ul li:nth-child(4)
-{
-    background-color: black;
-}
-.social .fa
-{
-    position: relative;
-    left: 5px;
-    top: 5px;
-    z-index: 500;
-}
-.social ul li a:nth-child(1)
-{
-    color: white;
-}
-
-.social ul li a:nth-child(2)
-{
-    color: white;
-}
-.social ul li a:nth-child(3)
-{
-    color: white;
-}
-.social ul li:nth-child(4)
-{
-    color: white;
-}
-.social ul li a:nth-child(5)
-{
-    color: white;
-}
-.social ul li
-{   list-style: none;
-    font-size: 20px;
-    font-weight: normal;
-    background-color: honeydew;
-    height: 30px;
-    width: 40px;
-    margin-left: 3px;
-    border-radius: 2px;
-    margin-top: 300px;
-    z-index: 100;
-
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 230px;
 }
 .but
 {
@@ -330,8 +327,4 @@ input[type="email"]
     transform: scale(1.2);
 }
 
-.bubbles img
-{
-    background-color: white;
-}
 
