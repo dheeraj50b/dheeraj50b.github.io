@@ -39,6 +39,12 @@
         padding: 60px 70px 60px 100px;
     }
     
+    @media(min-width:1450px) {
+        #Home {
+            height: 50%;
+        }
+    }
+    
     @media(max-width:909px) {
         .socialImg {
             margin-left: -20px;
