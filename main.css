@@ -274,6 +274,7 @@
         border-style: none;
         padding: 10px;
         font-weight: 480;
+        border-radius: 9px;
     }
     
     @media(max-width:994px) {
